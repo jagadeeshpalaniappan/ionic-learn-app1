@@ -7,6 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Menu1Page } from '../pages/menu1/menu1';
+import { Menu1Tab1Page } from '../pages/menu1-tab1/menu1-tab1';
+import { Menu1Tab2Page } from '../pages/menu1-tab2/menu1-tab2';
 import { Menu2Page } from '../pages/menu2/menu2';
 
 
@@ -23,6 +25,8 @@ const MyAppRoutes = {
     MyApp,
     HomePage,
     Menu1Page,
+    Menu1Tab1Page,
+    Menu1Tab2Page,
     Menu2Page
   ],
   imports: [
@@ -34,6 +38,8 @@ const MyAppRoutes = {
     MyApp,
     HomePage,
     Menu1Page,
+    Menu1Tab1Page,
+    Menu1Tab2Page,
     Menu2Page
   ],
   providers: [

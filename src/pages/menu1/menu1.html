@@ -1,14 +1,4 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle icon-only>
-      <ion-icon name='menu'></ion-icon>
-    </button>
-    <ion-title>
-      Menu1
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  Menu1
-</ion-content>
+<ion-tabs>
+  <ion-tab tabIcon="water" tabTitle="Tab1" [root]="tab1RootPage"></ion-tab>
+  <ion-tab tabIcon="leaf" tabTitle="Tab2" [root]="tab2RootPage"></ion-tab>
+</ion-tabs>
